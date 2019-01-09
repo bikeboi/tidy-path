@@ -2,7 +2,8 @@
 
 > A PATH cleaning utility with a very uninspired name
 
-It cleans your PATH variable.
+It removes redundant entries in your `PATH`. Future additions may check for
+unused entries maybe, who knows?
 
 ## Usage
 Running it with no arguments uses the currently set `PATH` environment
@@ -18,7 +19,3 @@ yeet:another/yeet
 ```
 The path it outputs is also sorted alphabetically (feature not a bug, I
 promise).
-
-Current functionality:
-## Simple Clean
-Removes all redundant entries in your PATH
