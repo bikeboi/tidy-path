@@ -4,24 +4,23 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 64b91ec4c86c7519f2b501ead7c3868a3ce49c3b7f8955e4e45743dc7c980655
+-- hash: 82bca7557f8fc856d3f08682566f0a9b4276b29922548d5ce8992cad0e237c2f
 
-name:           clean-path
+name:           tidy-path
 version:        0.0.0
 description:    Small utility for cleaning up redundant system paths (and more maybe?)
 maintainer:     Michael Kareithi
 build-type:     Simple
 
-executable exe
+executable tidypath
   main-is: Main.hs
   other-modules:
-      Paths_clean_path
+      Paths_tidy_path
   hs-source-dirs:
       src
   build-depends:
       base
     , containers
-    , directory
     , optparse-applicative
     , text
   default-language: Haskell2010
