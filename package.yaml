@@ -1,4 +1,5 @@
 name: tidy-path
+version: 0.1
 description: Small utility for cleaning up redundant system paths (and more maybe?)
 maintainer: Michael Kareithi
 

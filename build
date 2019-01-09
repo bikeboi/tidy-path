@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo Stack
+stack --version
+echo "---"
+mkdir out -p
+stack build
+cp ./.stack-work/install/x86_64-linux-tinfo6/lts-13.2/8.6.3/bin/tidypath out/
+echo "Output binary to: './out/tidypath'" 

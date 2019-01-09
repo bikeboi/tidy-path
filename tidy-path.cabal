@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 82bca7557f8fc856d3f08682566f0a9b4276b29922548d5ce8992cad0e237c2f
+-- hash: fbdb2818c0805d8f731ef3de6eee432cb67b0874930857fdec60bb69b84429b1
 
 name:           tidy-path
-version:        0.0.0
+version:        0.1
 description:    Small utility for cleaning up redundant system paths (and more maybe?)
 maintainer:     Michael Kareithi
 build-type:     Simple
