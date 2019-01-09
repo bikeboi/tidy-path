@@ -1,0 +1,15 @@
+name: clean-path
+description: Small utility for cleaning up redundant system paths (and more maybe?)
+maintainer: Michael Kareithi
+
+dependencies:
+  - base
+  - text
+  - directory
+  - optparse-applicative
+  - containers
+  
+executables:
+  exe:
+    main: Main.hs
+    source-dirs: src
