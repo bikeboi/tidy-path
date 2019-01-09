@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fbdb2818c0805d8f731ef3de6eee432cb67b0874930857fdec60bb69b84429b1
+-- hash: c62a3f0b6bdf6e208bcc6b208403e7e060c7f9f376860567c5f0768af3f30cbd
 
 name:           tidy-path
 version:        0.1
@@ -21,6 +21,7 @@ executable tidypath
   build-depends:
       base
     , containers
+    , directory
     , optparse-applicative
     , text
   default-language: Haskell2010

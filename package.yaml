@@ -6,7 +6,7 @@ maintainer: Michael Kareithi
 dependencies:
   - base
   - text
-  # - directory
+  - directory
   - optparse-applicative
   - containers
   
